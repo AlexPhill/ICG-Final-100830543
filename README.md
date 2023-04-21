@@ -6,7 +6,7 @@ This image showcases the following:
 - [X] A floor (In this case, that is the sewer water)
 - [X] Back walls: Brick walls, USING TEXTURE FROM FREEPBRTEXTURES
 - [X] Moving Objects: The player can be moved with A & D Keys, Enemies move back & forth
-- [X] Moving Lights: Lights use a unity animation to move around, showcasing the shaders.
+- [X] Moving Lights: Lights use a unity animation to move around, showcasing the shaders.\
 I used a model I made for my GDW game as the player(ninja turtle), the wall was made with a unity cube, the floor was done with a plane, and the enemies were made with a unity cylinder.
 ## **Bump Mapping**
 ![image](https://user-images.githubusercontent.com/94996976/233705225-f83838e4-2911-40f1-ae9b-4e41384b0dbb.png)\
