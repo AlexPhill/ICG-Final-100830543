@@ -7,8 +7,9 @@ This image showcases the following:
 - [X] Back walls: Brick walls, USING TEXTURE FROM FREEPBRTEXTURES
 - [X] Moving Objects: The player can be moved with A & D Keys, Enemies move back & forth
 - [X] Moving Lights: Lights use a unity animation to move around, showcasing the shaders.
+I used a model I made for my GDW game as the player(ninja turtle), the wall was made with a unity cube, the floor was done with a plane, and the enemies were made with a unity cylinder.
 ## **Bump Mapping**
-![image](https://user-images.githubusercontent.com/94996976/233705225-f83838e4-2911-40f1-ae9b-4e41384b0dbb.png)
+![image](https://user-images.githubusercontent.com/94996976/233705225-f83838e4-2911-40f1-ae9b-4e41384b0dbb.png)\
 The walls use a bump shader to add realism to the texture, and simulate extra geometry per pixel. This shader differs from the one from the lecture, as this shader:
 - Uses a specular colour value to help emphasize the shiny points of the texture with colour.
 ![image](https://user-images.githubusercontent.com/94996976/233707136-f5b6760b-f585-4518-a46b-c57c485aeb48.png)
