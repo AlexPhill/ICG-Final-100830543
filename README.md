@@ -3,10 +3,10 @@ Alexander Phillips: 100830543
 ## **Low Fidelity Replica:**
 ![image](https://user-images.githubusercontent.com/94996976/233704045-db08372b-4fa0-4a17-9a91-3e7a78f2062d.png)
 This image showcases the following:
-- [X] A floor (In this case, that is the sewer water)\
-- [X] Back walls: Brick walls, USING TEXTURE FROM FREEPBRTEXTURES\
-- [X] Moving Objects: The player can be moved with A & D Keys, Enemies move back & forth\
-- [X] Moving Lights: Lights use a unity animation to move around, showcasing the shaders.\
+- [X] A floor (In this case, that is the sewer water)
+- [X] Back walls: Brick walls, USING TEXTURE FROM FREEPBRTEXTURES
+- [X] Moving Objects: The player can be moved with A & D Keys, Enemies move back & forth
+- [X] Moving Lights: Lights use a unity animation to move around, showcasing the shaders.
 ## **Bump Mapping**
 ![image](https://user-images.githubusercontent.com/94996976/233705225-f83838e4-2911-40f1-ae9b-4e41384b0dbb.png)
 The walls use a bump shader to add realism to the texture, and simulate extra geometry per pixel. This shader differs from the one from the lecture, as this shader:
