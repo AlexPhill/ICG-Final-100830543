@@ -24,5 +24,19 @@ The water was added to simulate what sewer water would look like, the shader cre
 - Combines the scrolling overlay shader with the water shader that accesses the vertex shader.
 - Adds an emission value to modify the colour to a more "sewer-like" hue.
 
+## **Bloom**
+![image](https://user-images.githubusercontent.com/94996976/233711656-41bd45c7-1bd5-448e-933a-6c6d187cc1a8.png)\
+
+Bloom was implemented, using the same syntax from the one in class, with the only difference being that it can be toggled on and off with the **ESCAPE** button.
+- Bloom consists of multiple passes, one of which being a box filter, which blurs edges in iterations
+- It has another pass to apply the bloom, which adds light emission to the object to brighten it.
+
+## BONUS SHADER
+![image](https://user-images.githubusercontent.com/94996976/233711721-369b1dc7-9864-4052-ac1a-c6af22065c55.png)\
+![image](https://user-images.githubusercontent.com/94996976/233711924-edae6349-aaab-465a-8c89-2901d2f3dc08.png)\
+
+For the bonus shader, I combined the toon shading with the outline shader. This was used to showcase the lights more effectively, as well as give the character a cartoony effect.
+- It adds another pass which turns ZWrite off, handles the outline first, and the second pass turns ZWrite On, handles the lighting and texturing.
+
 
 
