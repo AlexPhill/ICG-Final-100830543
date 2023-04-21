@@ -79,13 +79,13 @@ Material:
     - _Parallax: 0.02
     - _ScrollX: -5
     - _ScrollY: 5
-    - _Smooth: 0.962
+    - _Smooth: 0.1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _mySlider: 6.82
+    - _mySlider: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

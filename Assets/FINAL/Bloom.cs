@@ -85,16 +85,22 @@ public class Bloom : MonoBehaviour
         RenderTexture.ReleaseTemporary(currentSource);
     }
 
-
+    private void Start()
+    {
+        iterations = 4;
+        threshold = 0.3f;
+    }
     private void Update()
     {
         if (Input.GetKey(KeyCode.Escape))
         {
             iterations = 0;
+            threshold = 3f;
         }
         else
         {
             iterations = 4;
+            threshold = 0.3f;
         }
     }
 }
