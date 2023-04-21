@@ -13,12 +13,11 @@ public class Bloom : MonoBehaviour
     const int ApplyBloomPass = 3;
     const int DebugBloomPass = 4;
 
-
     public Shader bloomShader;
     public bool debug;
 
 
-    [Range(1, 16)]
+    [Range(0, 16)]
 	public int iterations = 4;
 
     [Range(0, 10)]
@@ -86,4 +85,16 @@ public class Bloom : MonoBehaviour
         RenderTexture.ReleaseTemporary(currentSource);
     }
 
+
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            iterations = 0;
+        }
+        else
+        {
+            iterations = 4;
+        }
+    }
 }
